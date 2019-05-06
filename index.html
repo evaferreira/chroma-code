@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Some Chroma key</title>
+		<link rel="stylesheet" type="text/css" href="chroma.css">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div>
+				<video  id="video" controls autoplay></video>
+				<canvas id="canvas1" class="canvas" width="640" height="480"></canvas>
+			</div>
+			<div>
+				<span>Video</span>
+				<span>Canvas</span>
+			</div>
+		</div>
+		<div class="picker">
+			<label for="colorFilter">Select color</label>
+			<select id="colorFilter">
+				<option>Green</option>
+				<option>Blue</option>
+			</select>
+		</div>
+
+		<script type="text/javascript" src="chroma.js"></script>
+	</body>
+</html>

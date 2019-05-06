@@ -1,0 +1,23 @@
+
+.wrapper > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+video {
+    width: 640px;
+    height: 480px;
+    border: 2px solid pink;
+}
+
+.canvas {
+    border: 2px solid hotpink;
+    background-image: url(images/hogwarts.png);
+    background-size: cover;
+}
+
+.picker {
+    text-align: center;
+}
